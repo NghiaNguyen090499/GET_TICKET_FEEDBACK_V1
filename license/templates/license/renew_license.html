@@ -1,0 +1,8 @@
+<!-- renew_license.html -->
+
+<h1>Renew License</h1>
+<form method="GET" action="{% url 'license:renew_license' %}">
+    <label for="license_key">License Key:</label>
+    <input type="text" id="license_key" name="license_key" required>
+    <button type="submit">Renew License</button>
+</form>

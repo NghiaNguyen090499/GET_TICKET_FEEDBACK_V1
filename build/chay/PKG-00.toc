@@ -1,0 +1,52 @@
+('C:\\Users\\Phương '
+ 'Mai\\OneDrive\\Desktop\\DATH\\QRCODE\\build\\chay\\chay.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True},
+ [('PYZ-00.pyz',
+   'C:\\Users\\Phương '
+   'Mai\\OneDrive\\Desktop\\DATH\\QRCODE\\build\\chay\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\Phương '
+   'Mai\\OneDrive\\Desktop\\DATH\\QRCODE\\build\\chay\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\Phương '
+   'Mai\\OneDrive\\Desktop\\DATH\\QRCODE\\build\\chay\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\Phương '
+   'Mai\\OneDrive\\Desktop\\DATH\\QRCODE\\build\\chay\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\Phương '
+   'Mai\\OneDrive\\Desktop\\DATH\\QRCODE\\build\\chay\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\Phương '
+   'Mai\\OneDrive\\Desktop\\DATH\\QRCODE\\build\\chay\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\Phương '
+   'Mai\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\Phương '
+   'Mai\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('chay',
+   'C:\\Users\\Phương Mai\\OneDrive\\Desktop\\DATH\\QRCODE\\chay.py',
+   'PYSOURCE')],
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)

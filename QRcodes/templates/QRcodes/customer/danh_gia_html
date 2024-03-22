@@ -196,12 +196,12 @@
     <div class="logo-container">
       <div class="logo float-left">
         <a href="{% url 'customer:trang-chu' %}" class="scrollto">
-          <img src="{% static 'Qrcodes/img/file_moi/ararlogo.png' %}" alt="" class="img-fluid">
+          <img src="{% static 'QRcodes/img/file_moi/ararlogo.png' %}" alt="" class="img-fluid">
         </a>
       </div>
       <div class="logo float-right">
         <a href="{% url 'customer:trang-chu' %}" class="scrollto">
-          <img style="max-height: 100px;" src="{% static 'Qrcodes/img/file_moi/logochuxanh.png' %}" alt=""
+          <img style="max-height: 100px;" src="{% static 'QRcodes/img/file_moi/logochuxanh.png' %}" alt=""
             class="img-fluid">
         </a>
       </div>
@@ -229,14 +229,14 @@
                 <label for="1">
                   
                   <input title=" {{danh_gia.3.feedback}}" class="radio" type="radio" name="feedback" id="1" value="{{danh_gia.3.feedback}}">
-                  <span><img src="{% static 'Qrcodes/img/svg/Loudly Crying Face (1F62D).svg' %}" alt=""></span>
+                  <span><img src="{% static 'QRcodes/img/svg/Loudly Crying Face (1F62D).svg' %}" alt=""></span>
                 </label>
               </div>
               <div title="{{danh_gia.2.feedback}}" class="item">
                 <label for="2">
                
                   <input title="{{danh_gia.2.feedback}}" class="radio" type="radio" name="feedback" id="2" value="{{danh_gia.2.feedback}}">
-                  <span><img src="{% static 'Qrcodes/img/svg/Smiling Face With Smiling Eyes (1F60A).svg' %}" alt=""></span>
+                  <span><img src="{% static 'QRcodes/img/svg/Smiling Face With Smiling Eyes (1F60A).svg' %}" alt=""></span>
                 </label>
               </div>
 
@@ -244,7 +244,7 @@
                 <label for="3">
               
                   <input title=" {{danh_gia.1.feedback}}" class="radio" type="radio" name="feedback" id="3" value="{{danh_gia.1.feedback}}">
-                  <span><img src="{% static 'Qrcodes/img/svg/Smiling Face With Heart-Eyes (1F60D).svg' %}" alt=""></span>
+                  <span><img src="{% static 'QRcodes/img/svg/Smiling Face With Heart-Eyes (1F60D).svg' %}" alt=""></span>
                 </label>
               </div>
 
@@ -252,7 +252,7 @@
                 <label for="4">
                 
                   <input title="{{danh_gia.0.feedback}}" class="radio" type="radio" name="feedback" id="4" value="{{danh_gia.0.feedback}}">
-                  <span><img src="{% static 'Qrcodes/img/svg/Smiling Face With 3 Hearts (1F970).svg' %}" alt=""></span>
+                  <span><img src="{% static 'QRcodes/img/svg/Smiling Face With 3 Hearts (1F970).svg' %}" alt=""></span>
                 </label>
               </div>
 

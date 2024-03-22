@@ -26,7 +26,7 @@
     <!-- Main Stylesheet File -->
     <link href="{% static 'QRcodes/css/style.css'%}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="{% static 'Qrcodes/img/file_moi/ararlogo-preview.png' %}" rel="icon">
+    <link href="{% static 'QRcodes/img/file_moi/ararlogo-preview.png' %}" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -120,17 +120,17 @@
         <div class="row">
             <div class="col-2 logo float-left">
                 <a href="{% url 'customer:trang-chu' %}" class="scrollto"><img
-                        src="{% static 'Qrcodes/img/file_moi/ararlogo-preview.png' %}" alt="" class="img-fluid"></a>
+                        src="{% static 'QRcodes/img/file_moi/ararlogo-preview.png' %}" alt="" class="img-fluid"></a>
             </div>
             <div style="width:80px;  " class="col-8 text-center">
                 <a href="{% url 'customer:trang-chu' %}" class="scrollto">
                     <img style="border: none; height: 150px; margin: auto;"
-                        src="{% static 'Qrcodes/img/file_moi/bienhieu.jpg' %}" alt="" class="img-fluid">
+                        src="{% static 'QRcodes/img/file_moi/bienhieu.jpg' %}" alt="" class="img-fluid">
                 </a>
             </div>
             <div class="col-2 logo float-right">
                 <a href="{% url 'customer:trang-chu' %}" class="scrollto"><img style="max-height: 100px; margin: 40px;"
-                        src="{% static 'Qrcodes/img/file_moi/logochuxanh.png' %}" alt="" class="img-fluid"></a>
+                        src="{% static 'QRcodes/img/file_moi/logochuxanh.png' %}" alt="" class="img-fluid"></a>
             </div>
         </div>
     </div>
@@ -295,7 +295,7 @@
     </style>
 
     <div class="col-md-12 text-center">
-        <div class="qr-img">
+        <div class="QR-img">
             <button id="chuyenTrangButton">QUAY LẠI TRANG DỊCH VỤ</button>
             <div id="countdown"></div>
             <img src="/media/{{img_name}}" width="250px">

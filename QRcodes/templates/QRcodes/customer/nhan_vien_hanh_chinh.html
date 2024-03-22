@@ -11,7 +11,7 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="{% static 'Qrcodes/img/file_moi/ararlogo-preview.png' %}" rel="icon">
+  <link href="{% static 'QRcodes/img/file_moi/ararlogo-preview.png' %}" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -130,11 +130,11 @@
     <div class="row">
       <div class="col-2 logo float-left">
         <a href="{% url 'customer:trang-chu' %}" class="scrollto"><img style='margin: 20px 0;'
-            src="{% static 'Qrcodes/img/file_moi/ararlogo-preview.png' %}" alt="" class="img-fluid"></a>
+            src="{% static 'QRcodes/img/file_moi/ararlogo-preview.png' %}" alt="" class="img-fluid"></a>
       </div>
       <div style="width: 80px; ;" class="col-8 text-center mx-auto">
         <a href="{% url 'customer:trang-chu' %}" class="">
-            <img style='margin: -10px 0px 0 -400px; max-height: 100px;' src="{% static 'Qrcodes/img/file_moi/logo.png' %}" alt="" class="img-fluid">
+            <img style='margin: -10px 0px 0 -400px; max-height: 100px;' src="{% static 'QRcodes/img/file_moi/logo.png' %}" alt="" class="img-fluid">
         </a>
         <span style="color: #FFCB05; font-family: 'Be Vietnam Pro'; position: absolute; top: 0; ">
             BỘ PHẬN TIẾP NHẬN VÀ TRẢ KẾT QUẢ 
@@ -143,7 +143,7 @@
       </div>  
       <div class="col-2 logo float-right">
         <a href="{% url 'customer:trang-chu' %}" class="scrollto"><img style="max-height: 90px; margin: 0px 0 0 100px;"
-            src="{% static 'Qrcodes/img/file_moi/logochuxanh.png' %}" alt="" class="img-fluid float-right"></a>
+            src="{% static 'QRcodes/img/file_moi/logochuxanh.png' %}" alt="" class="img-fluid float-right"></a>
       </div>
     </div>
   </div>
@@ -592,7 +592,7 @@
     } else if (Notification.permission === "granted") {
       var notification = new Notification("", {
         body: "QUẦY: {{ service }}\nSố thứ tự đang chờ là : {{ orders.0 }}",
-        icon: '{% static 'Qrcodes/img/file_moi/logochuxanh.png' %}', // Thay đổi 'notification_icon.png' thành đường dẫn của biểu tượng thông báo của bạn
+        icon: '{% static 'QRcodes/img/file_moi/logochuxanh.png' %}', // Thay đổi 'notification_icon.png' thành đường dẫn của biểu tượng thông báo của bạn
         // Thay đổi màu thông báo thành đỏ
         color: 'red'
           });
@@ -604,7 +604,7 @@
       if (permission === "granted") {
         var notification = new Notification("Danh Sách Khách Hàng Chờ", {
           body: "TỔNG SỐ KHÁCH HÀNG ĐANG CHỜ: " + count,
-          icon: '{% static 'Qrcodes/img/file_moi/logochuxanh.png' %}', // Thay đổi 'notification_icon.png' thành đường dẫn của biểu tượng thông báo của bạn
+          icon: '{% static 'QRcodes/img/file_moi/logochuxanh.png' %}', // Thay đổi 'notification_icon.png' thành đường dẫn của biểu tượng thông báo của bạn
           // Thay đổi màu thông báo thành đỏ
           color: 'red'
                   });
@@ -656,7 +656,7 @@
 
 
 <!-- Template Main Javascript File -->
-<script src="{% static 'Qrcodes/js/main.js' %}"></script>
+<script src="{% static 'QRcodes/js/main.js' %}"></script>
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 <script src="{% static 'QRcodes/lib/jquery/jquery.min.js' %}"></script>
 <script src="{% static 'QRcodes/lib/jquery/jquery-migrate.min.js' %} "></script>
@@ -669,7 +669,7 @@
 <script src="{% static 'QRcodes/lib/owlcarousel/owl.carousel.min.js' %}"></script>
 <script src="{% static 'QRcodes/lib/isotope/isotope.pkgd.min.js' %}"></script>
 <script src="{% static 'QRcodes/lib/lightbox/js/lightbox.min.js' %}"></script>
-<script src="{% static 'Qrcodes/contactform/contactform.js' %}"></script>
+<script src="{% static 'QRcodes/contactform/contactform.js' %}"></script>
 
 <!-- Vendor JS Files -->
 <script src="{% static 'QRcodes/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>

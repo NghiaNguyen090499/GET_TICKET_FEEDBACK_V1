@@ -2,14 +2,12 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Rapid Bootstrap Template</title>
+  <title>ARAR DỊCH VỤ</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
 
-  <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
 
   <!-- Google Fonts -->
   <link
@@ -115,6 +113,7 @@
   <meta property="og:title" content="Page 1">
   <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
 </head>
 
@@ -125,30 +124,39 @@
     <div class="logo float-left">
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <h1 class="text-light"><a href="#intro" class="scrollto"><span>Rapid</span></a></h1> -->
-      <a href="{% url 'qrcode:trang-chu' %}" class="scrollto"><img
-          src="{% static 'Qrcodes/img/file_moi/ararlogo.png' %}" alt="" class="img-fluid"></a>
+      <a href="{% url 'customer:trang-chu' %}" class="scrollto"><img
+          src="{% static 'QRcodes/img/file_moi/ararlogo.png' %}" alt="" class="img-fluid"></a>
     </div>
+
+    <div class="logo float-right">
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <h1 class="text-light"><a href="#intro" class="scrollto"><span>Rapid</span></a></h1> -->
+      <a href="{% url 'customer:trang-chu' %}" class="scrollto">
+        <img style="max-height: 100px;"
+              src="{% static 'Qrcodes/img/file_moi/logochuxanh.png' %}" alt="" class="img-fluid"></a>
+  </div>
 
     <nav class="main-nav float-right d-none d-lg-block">
       <ul>
-        <li class="active"><a href="{% url 'qrcode:trang-chu' %}">TRANG CHỦ</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#services">DỊCH VỤ</a></li>
-        <li class="drop-down"><a href="">Drop Down</a>
+        <li class="active"><a href="{% url 'customer:trang-chu' %}">TRANG CHỦ</a></li>
+        <li><a href="#about">VỀ CHÚNG TÔI</a></li>
+        <li><a href="{% url 'customer:chon-dich-vu'%}">DỊCH VỤ</a></li>
+        <li class="drop-down"><a href="">DANH SÁCH </a>
           <ul>
-            <li><a href="#">Drop Down 1</a></li>
-            <li class="drop-down"><a href="#">Drop Down 2</a>
+            <li><a href="#">TẠO SỐ</a></li>
+            <li><a href="#">XÓA SỐ </a></li>
+            <li class="drop-down"><a href="#">BẢNG NHÂN VIÊN</a>
               <ul>
-                <li><a href="#">Deep Drop Down 1</a></li>
-                <li><a href="#">Deep Drop Down 2</a></li>
-                <li><a href="#">Deep Drop Down 3</a></li>
-                <li><a href="#">Deep Drop Down 4</a></li>
-                <li><a href="#">Deep Drop Down 5</a></li>
+                {% for nhan_vien in nhan_vien %}
+            
+                <li><a href="{% url 'customer:nhan-vien' nhan_vien.assigned_service_id %}">{{nhan_vien.name}} </a></li>
+              
+                {% endfor %}
               </ul>
             </li>
-            <li><a href="#">Drop Down 3</a></li>
-            <li><a href="#">Drop Down 4</a></li>
-            <li><a href="#">Drop Down 5</a></li>
+       
+            <li><a href="{% url 'customer:bang-khach-hang' %}">BẢNG KHÁCH HÀNG</a></li>
+      
           </ul>
         </li>
         <li><a href="#footer">LIÊN HỆ</a></li>
@@ -170,13 +178,11 @@
 
         <div class="col-sm-6">
           <div class="footer-links">
-            <h4>Useful Links</h4>
+            <h4></h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">Trang chủ</a></li>
+              <li><a href="#">Về chúng tôi</a></li>
+           
             </ul>
           </div>
          
